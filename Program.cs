@@ -18,3 +18,7 @@ for (int i = 0; i < array.Length; i++){
         number++;
     }
 }
+
+foreach(string str in newArray){
+    Console.Write(str + ", ");
+}
