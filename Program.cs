@@ -20,5 +20,9 @@ for (int i = 0; i < array.Length; i++){
 }
 
 foreach(string str in newArray){
+    if (str == newArray[count_elem-1]){
+        Console.Write(str);
+    } else{
     Console.Write(str + ", ");
+    }
 }
