@@ -7,6 +7,7 @@ foreach(string str in array){
     }
 }
 // Console.WriteLine(count_elem);
+string [] newArray = new string [count_elem];
 
 for (int i = 0; i < array.Length; i++){
     if (array[i].Length <= 3){
