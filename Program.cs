@@ -1,6 +1,4 @@
-﻿using System.Globalization;
-
-string [] array = new string [] {"Hellow",  "world", ":-)mhkh"};
+﻿string [] array = new string [] {"Hellow", "2",  "world", ":-)"};
 int count_elem = 0;
 
 foreach(string str in array){
